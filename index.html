@@ -1,0 +1,82 @@
+<html>
+<head>
+<title>GoVerify</title>
+</head>
+
+<body>
+<section id='main-section'>
+<img src='icon.png' width='40px' id='icon' draggable='false'><br>
+<section id='search-field'>
+<input type='email' id='search-query' placeholder='Email Address'><br>
+<button id='test'>Verify</button>
+<section id='valid-not-valid'>
+<img src='waiting.png' width='70px' id='vnv' draggable='false'>
+</section>
+<br>
+<a href='http://jamesbaloyi.xyz/' target='blank'><small id='submit-to'></small></a>
+</section>
+</section>
+
+
+<style>
+body{
+  border-radius: 20px;
+  padding: 0px;
+  margin: 0px;
+}
+#main-section{
+  width: 210px;
+  height: 320px;
+  background-color: #fff;
+  border-radius: 20px;
+  align-content: center;
+  text-align: center;
+}
+#icon{
+  padding: 15px;
+  padding-left: 0px;
+}
+#vnv{
+  margin-top: 30px;
+}
+#search-query{
+  width: 80%;
+  height: 35px;
+  border-radius: 18px;
+  padding: 10px;
+  border: 0px;
+  box-shadow: #f2f2f2 0 0 3px 3px;
+  margin-top: 20px;
+  text-align: center;
+}
+#search-query:focus, #test:focus{
+  outline: none;
+  box-shadow: #f2f2f2 0 0 8px 8px;
+}
+#text:hover{
+  outline: none;
+  box-shadow: #f2f2f2 0 0 6px 6px;
+}
+#result-text{
+  margin-top: 15px;
+}
+#test{
+  background: linear-gradient(30deg, #090, #0073cb);
+  color: #fff;
+  border: 0px;
+  border-radius: 20px;
+  height: 30px;
+  width: 50%;
+  margin-top: 20px;
+}
+#submit-to{
+  padding-top: 10px;
+  text-transform: capitalize;
+}
+a{
+  color: #007ecb;
+}
+</style>
+</body>
+<script src='/script.js'></script>
+</html>
